@@ -1,0 +1,33 @@
+*{
+  border-style: border-box;
+}
+#inputButton{
+  width: 10%;
+  margin: 3%;
+  border: 1px solid black;
+}
+
+section{
+  border: 2px solid black;
+  /* height:300px; */
+  width: 80%;
+}
+section span:first-of-type{
+  font-size: 16px;
+  color: grey;
+  background-color: rgb(132, 254, 213);
+  font-weight: bold;
+}
+.inputToList{
+  width: 60%;
+  height: 60px;
+}
+
+li{
+  list-style: none;
+}
+
+.completed{
+  color: grey;
+  text-decoration: line-through;
+}
